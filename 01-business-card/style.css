@@ -1,0 +1,33 @@
+body {
+    margin: 80px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.avatar {
+    width: 150px;
+    border-radius: 50%;
+    border: 6px solid #ecd8cc;
+    transition: transform 0.8s ease;
+}
+
+.avatar:hover {
+    transform: rotate(360deg);
+}
+
+.card {
+    width: 400px;
+    margin: 0 auto;
+    padding: 30px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    background: #f4eee9;
+    color: #bb8262;
+    border-bottom: 6px solid #ecd8cc;
+    border-right: 6px solid #ecd8cc;
+    border-radius: 30px;
+}
+
+.border-blue {
+    border: 1px dotted blue;
+}
