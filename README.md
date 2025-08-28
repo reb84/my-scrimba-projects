@@ -8,6 +8,6 @@ A collection of projects completed whilst working through the [Scrimba](https://
 #### 🏠 **Hometown Homepage**
 A simple website using basic CSS and HTML skills shown in the first two modules.
 
-[Code](./01-hometown-homepage) | [Demo]()
+[Code](./01-hometown-homepage) | [Demo](https://hometown-homepage-alpha.vercel.app/)
 
 ---
