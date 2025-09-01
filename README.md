@@ -13,7 +13,7 @@ A simple website using basic CSS and HTML skills shown in the first two modules.
 ---
 
 ### Module 3
-#### 🧮 **Counter App**
-A counter app using CSS, HTML and basic javascript.
+#### 🐸 **Counter App**
+A counter app using CSS, HTML and basic Javascript.
 
-[Code](./02-counter-app) | [Demo](#)
+[Code](./02-counter-app) | [Demo](https://froggy-counter.vercel.app/)
