@@ -102,26 +102,23 @@
 
 
 
- footer {
-     position: fixed;
+ /* github link */
+ .github-button {
+     position: absolute;
+     top: 1rem;
+     right: 1rem;
+     width: 24px;
+     height: 24px;
+     color: #fff;
+ }
+
+ .github-button svg {
+     fill: currentColor;
      width: 100%;
-     bottom: 0;
-     left: 0;
-     right: 0;
-     text-align: center;
-     font-size: .8rem;
-     letter-spacing: 1px;
-     padding: 14px 0;
-     box-sizing: border-box;
-     color: #636363;
-     font-family: sans-serif
+     height: 100%;
+     transition: color 0.3s ease;
  }
 
- .credit-tag a {
-     color: #636363;
-
- }
-
- .credit-tag a:hover {
-     opacity: 0.5;
+ .github-button:hover {
+     color: #0366d6;
  }
