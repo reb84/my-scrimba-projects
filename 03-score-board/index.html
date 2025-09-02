@@ -9,30 +9,37 @@
 
   <body>
     <div class="container">
-      <div>
-        <h3>HOME</h3>
-        <div class="score-container">
-          <span id="score">0</span>
+      <div class="main">
+        <div>
+          <h3>HOME</h3>
+          <div class="score-container">
+            <span class="score" id="home-score">0</span>
+          </div>
+          <div class="score-btn-container">
+            <button id="home-one" onclick="homeOne()">+1</button>
+            <button id="home-two" onclick="homeTwo()">+2</button>
+            <button id="home-three" onclick="homeThree()">+3</button>
+          </div>
         </div>
-        <div class="btn-container">
-          <button id="home-one" onclick="homeOne()">+1</button>
-          <button id="home-two" onclick="homeTwo()">+2</button>
-          <button id="home-three" onclick="homeThree()">+3</button>
+
+        <div>
+          <h3>GUEST</h3>
+          <div class="score-container">
+            <span class="score" id="guest-score">0</span>
+          </div>
+          <div class="score-btn-container">
+            <button id="guest-one" onclick="guestOne()">+1</button>
+            <button id="guest-two" onclick="guestTwo()">+2</button>
+            <button id="guest-three" onclick="guestThree()">+3</button>
+          </div>
         </div>
       </div>
 
-      <div>
-        <h3>GUEST</h3>
-        <div class="score-container">
-          <span id="score">0</span>
-        </div>
-        <div class="btn-container">
-          <button id="guest-one" onclick="guestOne()">+1</button>
-          <button id="guest-two" onclick="guestTwo()">+2</button>
-          <button id="guest-three" onclick="guestThree()">+3</button>
-        </div>
+      <div class="reset-button">
+        <button id="reset" onclick="reset()">New Game</button>
       </div>
     </div>
+
     <script src="script.js"></script>
   </body>
 </html>
