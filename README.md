@@ -17,3 +17,8 @@ A simple website using basic CSS and HTML skills shown in the first two modules.
 A counter app using CSS, HTML and basic Javascript.
 
 [Code](./02-counter-app) | [Demo](https://froggy-counter.vercel.app/)
+
+#### 🏀 **Score Board**
+A score keeper app using CSS, HTML and basic Javascript.
+
+[Code](./03-score-board) | [Demo](#)
