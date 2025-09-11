@@ -6,4 +6,4 @@
 
 ![Screenshot](assets/screenshot.png)
 
-✨ [PLAY A ROUND](#)
+✨ [PLAY A ROUND](https://blackjack-five-rust.vercel.app/)

@@ -18,3 +18,6 @@ A simple website using basic CSS and HTML skills shown in the first two modules.
 
 #### 🏀 **Score Board**
 [Code](./03-score-board) | [Demo](https://score-board-psi.vercel.app/)
+
+#### ♣️ **Blackjack**
+[Code](./04-blackjack) | [Demo](https://blackjack-five-rust.vercel.app/)
