@@ -4,6 +4,12 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Password Generator</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
@@ -45,10 +51,20 @@
       </svg>
     </a>
     <!-- GitHub Corner -->
-<main>
-<h1>generate a password</h1>
-</main>
-
+    <main>
+      <div class="container">
+        <h1>Generate a
+        <br> <span>random</span> password</h1>
+        <p>Never use an insecure password again.</p>
+        <button id="gen-btn" onclick="generatePassword()">
+          Generate passwords
+        </button>
+        <div class="pw-container">
+          <p id="pw-one"></p>
+          <p id="pw-two"></p>
+        </div>
+      </div>
+    </main>
 
     <script src="script.js"></script>
   </body>

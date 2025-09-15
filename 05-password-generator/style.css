@@ -1,3 +1,9 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 /* github link */
 .github-button {
     position: absolute;
@@ -17,4 +23,78 @@
 
 .github-button:hover {
     color: #0366d6;
+}
+
+html,
+body {
+    height: 100%;
+    font-family: "Karla", sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #212844;
+    color: #f0e8d5;
+}
+
+.container {
+    width: 540px;
+    border-radius: 20px;
+    padding: 30px;
+}
+
+h1 {
+    font-size: 40px;
+    margin-bottom: 10px;
+    line-height: 1em;
+}
+
+h1 span {
+
+    color: #e67e22;
+}
+
+
+
+button {
+    background-color: transparent;
+    border-radius: 6px;
+    padding: 10px 16px;
+    border: 2px solid #f0e8d5;
+    color: #f0e8d5;
+    font-weight: 800;
+    margin: 30px 0;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+
+
+
+button:hover {
+    background-color: #e67e22;
+    border: 2px solid #e67e22;
+    color: #212844;
+}
+
+.pw-container {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid #f0e8d5;
+    padding-top: 30px;
+}
+
+
+
+#pw-one,
+#pw-two {
+    width: 220px;
+    border: 2px solid #e67e22;
+    border-radius: 6px;
+    padding: 10px 16px;
+    color: #f0e8d5;
+    font-weight: 600;
+    min-height: 44px;
 }

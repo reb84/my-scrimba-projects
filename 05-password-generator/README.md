@@ -6,5 +6,5 @@
 
 <!-- ![Screenshot](assets/screenshot.png) -->
 
-<!-- ✨ [PLAY A ROUND](https://blackjack-five-rust.vercel.app/) -->
+<!-- ✨ [GIVE IT A GO](https://password-generator-rouge-tau-21.vercel.app/) -->
 

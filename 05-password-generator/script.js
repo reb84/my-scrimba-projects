@@ -91,3 +91,11 @@ const characters = [
   "?",
   "/",
 ];
+
+let firstPassword = document.getElementById("pw-one");
+let secondPassword = document.getElementById("pw-two");
+
+function generatePassword() {
+  firstPassword.textContent = "hello";
+  secondPassword.textContent = "world";
+}

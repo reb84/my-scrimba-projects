@@ -23,4 +23,4 @@ A simple website using basic CSS and HTML skills shown in the first two modules.
 [Code](./04-blackjack) | [Demo](https://blackjack-five-rust.vercel.app/)
 
 #### 🔒 **Random Password Generator**
-[Code](./05-password-generator)
+[Code](./05-password-generator) | [Demo](https://password-generator-rouge-tau-21.vercel.app/)
