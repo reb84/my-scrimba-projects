@@ -96,6 +96,15 @@ let firstPassword = document.getElementById("pw-one");
 let secondPassword = document.getElementById("pw-two");
 
 function generatePassword() {
-  firstPassword.textContent = "hello";
-  secondPassword.textContent = "world";
+  // clear fields
+  firstPassword.textContent = "";
+  secondPassword.textContent = "";
+
+  for (let i = 0; i < 15; i++) {
+    const randomIndex1 = Math.floor(Math.random() * characters.length);
+    firstPassword.textContent += characters[randomIndex1];
+
+    const randomIndex2 = Math.floor(Math.random() * characters.length);
+    secondPassword.textContent += characters[randomIndex2];
+  }
 }
