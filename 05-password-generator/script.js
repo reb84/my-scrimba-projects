@@ -129,8 +129,6 @@ function passwordArray() {
 withNumbers.onchange = passwordArray;
 withSymbols.onchange = passwordArray;
 
-console.log(passwordArray);
-
 function generatePassword() {
   firstPassword.textContent = "";
   secondPassword.textContent = "";

@@ -8,4 +8,8 @@
 
 ✨ [GET A PASSWORD](https://password-generator-rouge-tau-21.vercel.app/)
 
-Password Generator creates two random passwords of 15 characters.
+Password Generator that creates two random passwords of 15 characters.
+
+I managed to complete the stretch goal tasks too, which I'm proud of:
+- Slider to choose password length
+- Toggle buttons to include/remove symbols and/or numbers from the password

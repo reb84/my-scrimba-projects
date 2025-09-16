@@ -60,41 +60,58 @@
         <p>Never use an insecure password again.</p>
 
         <div class="requirements-container">
+          <!-- character length slider -->
           <div class="selection">
             <p>Character length:</p>
-            <span class="character-length">
+            <div class="character-length">
               <input
                 type="range"
                 min="8"
                 max="30"
-                value="15"
-                class="slider"
+                value="14"
+                class="range-slider"
                 id="characterRange"
-              />
-            </span>
-            <span id="characterValue"></span>
+                aria-label="Password length"
+              /><span id="characterValue"></span>
+            </div>
           </div>
 
+          <!-- toggles -->
           <div class="selection">
-            <p>Include numbers?:</p>
-
-            <label class="switch">
-              <input type="checkbox" id="includeNum" />
-              <span class="slider round"></span>
-            </label>
-
-            <p>Include symbols?:</p>
-
-            <label class="switch">
-              <input type="checkbox" id="includeSym" />
-              <span class="slider round"></span>
-            </label>
+            <p>Password options:</p>
+            <div class="toggle-group">
+              <div class="toggle-item">
+                <label class="switch"
+                  ><input
+                    type="checkbox"
+                    id="includeNum"
+                    checked
+                    aria-label="Include numbers" /><span
+                    class="toggle-slider"
+                  ></span
+                ></label>
+                <p>Numbers</p>
+              </div>
+              <div class="toggle-item">
+                <label class="switch"
+                  ><input
+                    type="checkbox"
+                    id="includeSym"
+                    aria-label="Include symbols" /><span
+                    class="toggle-slider"
+                  ></span
+                ></label>
+                <p>Symbols</p>
+              </div>
+            </div>
           </div>
-        </div>
+
+
 
         <button id="gen-btn" onclick="generatePassword()">
           Generate passwords
         </button>
+
         <div class="pw-container">
           <div class="password">
             <p id="pw-one"></p>
