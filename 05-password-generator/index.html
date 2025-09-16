@@ -58,16 +58,32 @@
           <span>random</span> password
         </h1>
         <p>Never use an insecure password again.</p>
+
+        <div class="requirements-container">
+          <p>Character length:</p>
+          <span class="character-length">
+            <input
+              type="range"
+              min="8"
+              max="30"
+              value="15"
+              class="slider"
+              id="characterRange"
+            />
+          </span>
+          <p>Value: <span id="characterValue"></span></p>
+        </div>
+
         <button id="gen-btn" onclick="generatePassword()">
           Generate passwords
         </button>
         <div class="pw-container">
-          <div>
+          <div class="password">
             <p id="pw-one"></p>
             <button class="copy-btn" onclick="copyPasswordOne()">copy</button>
           </div>
 
-          <div>
+          <div class="password">
             <p id="pw-two"></p>
             <button class="copy-btn" onclick="copyPasswordTwo()">copy</button>
           </div>

@@ -95,12 +95,22 @@ const characters = [
 let firstPassword = document.getElementById("pw-one");
 let secondPassword = document.getElementById("pw-two");
 
+let slider = document.getElementById("characterRange");
+let output = document.getElementById("characterValue");
+output.textContent = slider.value;
+
+slider.oninput = function () {
+  output.textContent = this.value;
+};
+
 function generatePassword() {
   // clear fields
   firstPassword.textContent = "";
   secondPassword.textContent = "";
 
-  for (let i = 0; i < 15; i++) {
+  let passwordLength = slider.value;
+
+  for (let i = 0; i < passwordLength; i++) {
     const randomIndex1 = Math.floor(Math.random() * characters.length);
     firstPassword.textContent += characters[randomIndex1];
 
