@@ -1,4 +1,4 @@
-const characters = [
+const letters = [
   "A",
   "B",
   "C",
@@ -51,16 +51,11 @@ const characters = [
   "x",
   "y",
   "z",
-  "0",
-  "1",
-  "2",
-  "3",
-  "4",
-  "5",
-  "6",
-  "7",
-  "8",
-  "9",
+];
+
+const numbers = ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9"];
+
+const symbols = [
   "~",
   "`",
   "!",
@@ -92,6 +87,8 @@ const characters = [
   "/",
 ];
 
+let characters = [];
+
 let firstPassword = document.getElementById("pw-one");
 let secondPassword = document.getElementById("pw-two");
 
@@ -103,8 +100,38 @@ slider.oninput = function () {
   output.textContent = this.value;
 };
 
+let withNumbers = document.getElementById("includeNum");
+let withSymbols = document.getElementById("includeSym");
+
+function passwordArray() {
+  characters = [];
+
+  // always add letters
+  for (let i = 0; i < letters.length; i++) {
+    characters.push(letters[i]);
+  }
+
+  // numbers if toggled
+  if (withNumbers.checked) {
+    for (let i = 0; i < numbers.length; i++) {
+      characters.push(numbers[i]);
+    }
+  }
+
+  // symbols if toggled
+  if (withSymbols.checked) {
+    for (let i = 0; i < symbols.length; i++) {
+      characters.push(symbols[i]);
+    }
+  }
+}
+
+withNumbers.onchange = passwordArray;
+withSymbols.onchange = passwordArray;
+
+console.log(passwordArray);
+
 function generatePassword() {
-  // clear fields
   firstPassword.textContent = "";
   secondPassword.textContent = "";
 
@@ -136,3 +163,5 @@ function copyPasswordTwo() {
   navigator.clipboard.writeText(secondPassword.textContent);
   alert("Password copied: " + secondPassword.textContent);
 }
+
+passwordArray();

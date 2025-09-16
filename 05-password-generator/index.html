@@ -60,18 +60,36 @@
         <p>Never use an insecure password again.</p>
 
         <div class="requirements-container">
-          <p>Character length:</p>
-          <span class="character-length">
-            <input
-              type="range"
-              min="8"
-              max="30"
-              value="15"
-              class="slider"
-              id="characterRange"
-            />
-          </span>
-          <p>Value: <span id="characterValue"></span></p>
+          <div class="selection">
+            <p>Character length:</p>
+            <span class="character-length">
+              <input
+                type="range"
+                min="8"
+                max="30"
+                value="15"
+                class="slider"
+                id="characterRange"
+              />
+            </span>
+            <span id="characterValue"></span>
+          </div>
+
+          <div class="selection">
+            <p>Include numbers?:</p>
+
+            <label class="switch">
+              <input type="checkbox" id="includeNum" />
+              <span class="slider round"></span>
+            </label>
+
+            <p>Include symbols?:</p>
+
+            <label class="switch">
+              <input type="checkbox" id="includeSym" />
+              <span class="slider round"></span>
+            </label>
+          </div>
         </div>
 
         <button id="gen-btn" onclick="generatePassword()">

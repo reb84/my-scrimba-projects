@@ -114,10 +114,14 @@ button:hover {
 
 
 .requirements-container {
-    display: flex;
     border-top: 1px solid #f0e8d5;
     padding: 20px 0;
     margin: 30px 0;
+}
+
+.selection {
+    display: flex;
+    padding: 5px 0;
 }
 
 
