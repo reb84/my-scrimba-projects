@@ -108,3 +108,21 @@ function generatePassword() {
     secondPassword.textContent += characters[randomIndex2];
   }
 }
+
+function copyPasswordOne() {
+  if (!firstPassword.textContent) {
+    alert("Generate a password first!");
+    return;
+  }
+  navigator.clipboard.writeText(firstPassword.textContent);
+  alert("Password copied: " + firstPassword.textContent);
+}
+
+function copyPasswordTwo() {
+  if (!secondPassword.textContent) {
+    alert("Generate a password first!");
+    return;
+  }
+  navigator.clipboard.writeText(secondPassword.textContent);
+  alert("Password copied: " + secondPassword.textContent);
+}

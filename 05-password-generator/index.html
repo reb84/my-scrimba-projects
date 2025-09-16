@@ -53,15 +53,24 @@
     <!-- GitHub Corner -->
     <main>
       <div class="container">
-        <h1>Generate a
-        <br> <span>random</span> password</h1>
+        <h1>
+          Generate a <br />
+          <span>random</span> password
+        </h1>
         <p>Never use an insecure password again.</p>
         <button id="gen-btn" onclick="generatePassword()">
           Generate passwords
         </button>
         <div class="pw-container">
-          <p id="pw-one"></p>
-          <p id="pw-two"></p>
+          <div>
+            <p id="pw-one"></p>
+            <button class="copy-btn" onclick="copyPasswordOne()">copy</button>
+          </div>
+
+          <div>
+            <p id="pw-two"></p>
+            <button class="copy-btn" onclick="copyPasswordTwo()">copy</button>
+          </div>
         </div>
       </div>
     </main>
