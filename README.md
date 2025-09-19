@@ -24,3 +24,6 @@ A simple website using basic CSS and HTML skills shown in the first two modules.
 
 #### 🔒 **Random Password Generator**
 [Code](./05-password-generator) | [Demo](https://password-generator-rouge-tau-21.vercel.app/)
+
+#### 🛜 **URL Saver Chrome Extension**
+[Code](./06-url-saver-extension)
