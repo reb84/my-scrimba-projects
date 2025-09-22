@@ -27,3 +27,6 @@ A simple website using basic CSS and HTML skills shown in the first two modules.
 
 #### 🛜 **URL Saver Chrome Extension**
 [Code](./06-url-saver-extension)
+
+#### ⚖️ **Unit Converter**
+[Code](./07-unit-converter) | [Demo](https://unit-converter-henna-psi.vercel.app/)
