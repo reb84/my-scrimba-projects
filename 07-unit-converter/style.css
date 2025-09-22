@@ -64,6 +64,7 @@ h1 {
     background-color: var(--bg-secondary);
     display: flex;
     flex-direction: column;
+    border-radius: 8px;
 }
 
 .input-container {
@@ -73,6 +74,12 @@ h1 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    border-radius: 8px 8px 0 0;
+}
+
+.input-container label {
+font-size: small;
+margin-top: 20px;
 }
 
 .output-container p {
@@ -103,7 +110,7 @@ h1 {
     border: 1px solid var(--border-accent);
     width: 117px;
     border-radius: 5px;
-    margin: 30px auto;
+    margin: 10px auto 30px auto;
     background: transparent;
     color: inherit;
     text-align: center;
