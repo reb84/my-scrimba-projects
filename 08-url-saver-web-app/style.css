@@ -5,6 +5,12 @@ body {
     max-width: 302px;
 }
 
+input,
+textarea,
+select {
+    font-size: 16px;
+}
+
 label {
     color: #4c76bb;
     font-weight: 700;
@@ -15,7 +21,7 @@ input {
     padding: 10px;
     box-sizing: border-box;
     border: 2px solid #4c76bb;
-    margin-bottom: 4px;
+    margin: 6px 0;
     border-radius: 6px;
 }
 
@@ -46,4 +52,10 @@ li {
 
 a {
     color: #4c76bb;
+}
+
+.footnote {
+    margin-top: 50%;
+    font-size: smaller;
+    color: gray;
 }
