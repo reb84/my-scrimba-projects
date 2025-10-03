@@ -54,10 +54,13 @@ a {
     color: #4c76bb;
 }
 
+
+
 .footnote {
     margin-top: 80%;
 }
 
+.note,
 .footnote p {
     font-size: smaller;
     color: gray;
