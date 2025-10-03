@@ -1,24 +1,30 @@
 body {
-    margin: 0;
+    margin: 0 auto;
     padding: 10px;
     font-family: Arial, Helvetica, sans-serif;
-    min-width: 400px;
+    max-width: 302px;
+}
+
+label {
+    color: #4c76bb;
+    font-weight: 700;
 }
 
 input {
     width: 100%;
     padding: 10px;
     box-sizing: border-box;
-    border: 1px solid #4c76bb;
+    border: 2px solid #4c76bb;
     margin-bottom: 4px;
     border-radius: 6px;
 }
+
 
 button {
     background: #4c76bb;
     color: white;
     padding: 10px 20px;
-    border: 1px solid #4c76bb;
+    border: 2px solid #4c76bb;
     font-weight: bold;
     border-radius: 6px;
 }

@@ -4,7 +4,7 @@
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black) ![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)
 
-A simple URL bookmarking tool converted from a Chrome extension into a pseudo web app. Perfect for quick link saving and organising!
+A simple URL bookmarking tool converted from a Chrome extension into a Progressive Web App. Perfect for quick link saving and organising!
 
 ---
 
