@@ -55,7 +55,11 @@ a {
 }
 
 .footnote {
-    margin-top: 50%;
+    margin-top: 80%;
+}
+
+.footnote p {
     font-size: smaller;
     color: gray;
+    text-align: justify;
 }
