@@ -1,9 +1,74 @@
 <html>
-    <head>
-        <link rel="stylesheet" href="style.css">
-    </head>
-    <body>
-        <img src="assets/logo.png">
-        <script src="script.js"></script>
-    </body>
+  <head>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <!-- app header -->
+      <header class="app-header">
+        <img src="assets/logo.png" alt="Oldagram logo" class="logo" /><img
+          src="assets/user-avatar.png"
+          alt="User avatar"
+          class="avatar-img"
+        />
+      </header>
+
+      <!-- main post -->
+      <main class="feed">
+        <div class="app-post">
+          <!-- user info -->
+          <section class="post-header">
+            <img
+              src="assets/avatar-vangogh.jpg"
+              alt="Account Avatar"
+              class="avatar-img"
+            />
+            <div class="user-info">
+              <p class="user-name">Vincent van Gogh</p>
+              <p class="user-location">Zundert, Netherlands</p>
+            </div>
+          </section>
+
+          <!-- main image post -->
+          <section class="post-main">
+            <img
+              src="assets/post-vangogh.jpg"
+              alt="A self portrait of Vincent van Gogh"
+              class="post-img"
+            />
+          </section>
+
+          <!-- icons and caption -->
+          <section class="post-footer">
+            <div class="post-icons">
+              <img
+                src="assets/icon-heart.png"
+                alt="A heart icon"
+                class="icon-img"
+              />
+              <img
+                src="assets/icon-comment.png"
+                alt="A comment icon"
+                class="icon-img"
+              />
+              <img
+                src="assets/icon-dm.png"
+                alt="Send to DM icon"
+                class="icon-img"
+              />
+            </div>
+
+            <div class="post-text">
+              <p class="post-likes">21,492 likes</p>
+              <p class="post-caption">
+                <span class="user-name">vincey1853</span> just took a few
+                mushrooms lol
+              </p>
+            </div>
+          </section>
+        </div>
+      </main>
+    </div>
+    <script src="script.js"></script>
+  </body>
 </html>

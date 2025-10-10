@@ -1,5 +1,101 @@
-html,
-body {
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+
+* {
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
+}
+
+body {
+    background-color: #F5F5F5;
+    font-family: 'Source Sans 3', sans-serif;
+    font-size: 16px;
+}
+
+.container {
+    background-color: #fff;
+    margin: auto;
+    height: 100%;
+    max-width: 375px;
+}
+
+.avatar-img {
+    width: 34px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+}
+
+
+/* main app header */
+
+.app-header {
+    border-bottom: 1px solid #C6C6C6;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px;
+}
+
+.logo {
+    width: 127px;
+}
+
+
+/* post header */
+
+.post-header {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.user-info {
+    padding: 0 7px;
+}
+
+.user-name,
+.post-text {
+    font-size: 0.813rem;
+}
+
+.user-name {
+    font-weight: 700;
+}
+
+.user-location {
+    font-size: 0.75rem;
+}
+
+
+/* main post image */
+
+.post-img {
+    width: 100%;
+}
+
+
+/* post icons & caption */
+
+.post-footer {
+    border-bottom: 1px solid #C6C6C6;
+    padding-bottom: 20px;
+}
+
+.post-icons {
+    padding: 15px 10px;
+    display: flex;
+}
+
+.icon-img {
+    width: 25px;
+    margin-right: 14px;
+}
+
+.post-likes {
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.post-text {
+    padding: 0 15px;
 }

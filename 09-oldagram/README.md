@@ -6,6 +6,6 @@
 
 <!-- ![Screenshot](assets/screenshot.png) -->
 
-<!-- ✨ [GET A PASSWORD](https://password-generator-rouge-tau-21.vercel.app/) -->
+<!-- ✨ [CHECK THE FEED](https://password-generator-rouge-tau-21.vercel.app/) -->
 
-A simple Instagram clone created to practice fundemental CSS and semantic HTML.
+A simple Instagram clone created to practice fundamental CSS and semantic HTML.
