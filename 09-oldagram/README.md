@@ -6,6 +6,8 @@
 
 <!-- ![Screenshot](assets/screenshot.png) -->
 
-<!-- ✨ [CHECK THE FEED](https://password-generator-rouge-tau-21.vercel.app/) -->
+✨ [CHECK THE FEED](https://oldagram-neon.vercel.app/)
 
 A simple Instagram clone created to practice fundamental CSS and semantic HTML.
+
+Initially followed provided Figma guide but decided to update the UI to something a little more modern.

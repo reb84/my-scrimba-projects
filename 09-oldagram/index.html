@@ -1,74 +1,65 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
   <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Oldagram</title>
+    <script src="https://unpkg.com/lucide@latest"></script>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div class="container">
-      <!-- app header -->
-      <header class="app-header">
-        <img src="assets/logo.png" alt="Oldagram logo" class="logo" /><img
+    <header>
+      <div class="app-header">
+        <img src="assets/logo.png" alt="Oldagram logo" class="app-logo" /><img
           src="assets/user-avatar.png"
           alt="User avatar"
           class="avatar-img"
         />
-      </header>
+      </div>
+    </header>
 
-      <!-- main post -->
-      <main class="feed">
-        <div class="app-post">
-          <!-- user info -->
-          <section class="post-header">
+    <main class="feed">
+      <div class="post">
+        <div class="post-header">
+          <div class="avatar">
             <img
               src="assets/avatar-vangogh.jpg"
               alt="Account Avatar"
               class="avatar-img"
             />
-            <div class="user-info">
-              <p class="user-name">Vincent van Gogh</p>
-              <p class="user-location">Zundert, Netherlands</p>
-            </div>
-          </section>
-
-          <!-- main image post -->
-          <section class="post-main">
-            <img
-              src="assets/post-vangogh.jpg"
-              alt="A self portrait of Vincent van Gogh"
-              class="post-img"
-            />
-          </section>
-
-          <!-- icons and caption -->
-          <section class="post-footer">
-            <div class="post-icons">
-              <img
-                src="assets/icon-heart.png"
-                alt="A heart icon"
-                class="icon-img"
-              />
-              <img
-                src="assets/icon-comment.png"
-                alt="A comment icon"
-                class="icon-img"
-              />
-              <img
-                src="assets/icon-dm.png"
-                alt="Send to DM icon"
-                class="icon-img"
-              />
-            </div>
-
-            <div class="post-text">
-              <p class="post-likes">21,492 likes</p>
-              <p class="post-caption">
-                <span class="user-name">vincey1853</span> just took a few
-                mushrooms lol
-              </p>
-            </div>
-          </section>
+          </div>
+          <div class="post-header-content">
+            <span class="username">Vincent van Gogh</span>
+            <span class="location">Zundert, Netherlands</span>
+          </div>
         </div>
-      </main>
-    </div>
+        <div class="post-image">
+          <img
+            src="assets/post-vangogh.jpg"
+            alt="A self portrait of Vincent van Gogh"
+            class="post-img"
+          />
+        </div>
+        <div class="post-actions">
+          <button class="action-btn" id="like1">
+            <i data-lucide="heart"></i>
+          </button>
+          <button class="action-btn">
+            <i data-lucide="message-circle"></i>
+          </button>
+          <button class="action-btn">
+            <i data-lucide="send"></i>
+          </button>
+        </div>
+        <div class="post-likes">1,234 likes</div>
+        <div class="post-caption">
+          <span class="username">vincey1853</span>
+          <span>just took a few mushrooms lol</span>
+        </div>
+        <div class="post-time">2 hours ago</div>
+      </div>
+    </main>
+
     <script src="script.js"></script>
   </body>
 </html>
