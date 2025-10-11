@@ -2,15 +2,37 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Oldagram</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="assets/favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="assets/favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="assets/favicon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="assets/favicon/site.webmanifest" />
     <script src="https://unpkg.com/lucide@latest"></script>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <header>
       <div class="app-header">
-        <img src="assets/logo.png" alt="Oldagram logo" class="app-logo" /><img
+        <a href="">
+          <img src="assets/logo.png" alt="Oldagram logo" class="app-logo" />
+        </a>
+
+        <img
           src="assets/user-avatar.png"
           alt="User avatar"
           class="avatar-img"
@@ -41,15 +63,19 @@
           />
         </div>
         <div class="post-actions">
-          <button class="action-btn" id="like1">
+          <button class="action-btn" id="like1" aria-label="Like post">
             <i data-lucide="heart"></i>
           </button>
-          <button class="action-btn">
+          <button class="action-btn" aria-label="Comment">
             <i data-lucide="message-circle"></i>
           </button>
-          <button class="action-btn">
+          <button class="action-btn" aria-label="Share post">
             <i data-lucide="send"></i>
           </button>
+          <span class="bookmark-btn"
+            ><button class="action-btn" aria-label="Save post">
+              <i data-lucide="bookmark"></i></button
+          ></span>
         </div>
         <div class="post-likes">1,234 likes</div>
         <div class="post-caption">
@@ -58,7 +84,31 @@
         </div>
         <div class="post-time">2 hours ago</div>
       </div>
+
     </main>
+
+    <footer>
+      <div class="app-footer">
+        <div class="footer-actions">
+          <button class="action-btn" aria-label="Home">
+            <i data-lucide="house"></i>
+          </button>
+          <button class="action-btn" aria-label="Search">
+            <i data-lucide="search"></i>
+          </button>
+          <button class="action-btn" aria-label="Create">
+            <i data-lucide="square-plus"></i>
+          </button>
+          <button class="action-btn" aria-label="Reels">
+            <i data-lucide="film"></i>
+          </button>
+          <button class="action-btn" aria-label="Account">
+            <i data-lucide="user"></i>
+          </button>
+        </div>
+      </div>
+      
+    </footer>
 
     <script src="script.js"></script>
   </body>
