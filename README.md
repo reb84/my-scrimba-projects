@@ -12,7 +12,6 @@ A simple website using basic CSS and HTML skills shown in the first two modules.
 
 ---
 
-### Module 3
 #### 🐸 **Counter App**
 [Code](./02-counter-app) | [Demo](https://froggy-counter.vercel.app/)
 
@@ -34,8 +33,5 @@ A simple website using basic CSS and HTML skills shown in the first two modules.
 #### 🛜 **URL Web App**
 [Code](./08-url-saver-web-app) | [Demo](https://bookmarker-tau-gilt.vercel.app/)
 
----
-
-### Module 5
 #### 📷 **Oldagram**
 [Code](./09-oldagram) | [Demo](https://oldagram-neon.vercel.app/)
