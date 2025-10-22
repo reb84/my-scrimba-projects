@@ -3,35 +3,24 @@
 A collection of projects completed whilst working through the [Scrimba](https://scrimba.com) front-end developer path.
 
 ---
+<br>
 
-### Module 2
-#### 🏠 **Hometown Homepage**
-A simple website using basic CSS and HTML skills shown in the first two modules.
+🏠 **Hometown Homepage** [Code](./01-hometown-homepage) | [Demo](https://hometown-homepage-alpha.vercel.app/)
 
-[Code](./01-hometown-homepage) | [Demo](https://hometown-homepage-alpha.vercel.app/)
+🐸 **Counter App** [Code](./02-counter-app) | [Demo](https://froggy-counter.vercel.app/)
 
----
+🏀 **Score Board** [Code](./03-score-board) | [Demo](https://score-board-psi.vercel.app/)
 
-#### 🐸 **Counter App**
-[Code](./02-counter-app) | [Demo](https://froggy-counter.vercel.app/)
+♣️ **Blackjack** [Code](./04-blackjack) | [Demo](https://blackjack-five-rust.vercel.app/)
 
-#### 🏀 **Score Board**
-[Code](./03-score-board) | [Demo](https://score-board-psi.vercel.app/)
+🔒 **Random Password Generator** [Code](./05-password-generator) | [Demo](https://password-generator-rouge-tau-21.vercel.app/)
 
-#### ♣️ **Blackjack**
-[Code](./04-blackjack) | [Demo](https://blackjack-five-rust.vercel.app/)
+🛜 **URL Saver Chrome Extension** [Code](./06-url-saver-extension)
 
-#### 🔒 **Random Password Generator**
-[Code](./05-password-generator) | [Demo](https://password-generator-rouge-tau-21.vercel.app/)
+⚖️ **Unit Converter** [Code](./07-unit-converter) | [Demo](https://unit-converter-henna-psi.vercel.app/)
 
-#### 🛜 **URL Saver Chrome Extension**
-[Code](./06-url-saver-extension)
+🛜 **URL Web App** [Code](./08-url-saver-web-app) | [Demo](https://bookmarker-tau-gilt.vercel.app/)
 
-#### ⚖️ **Unit Converter**
-[Code](./07-unit-converter) | [Demo](https://unit-converter-henna-psi.vercel.app/)
+📷 **Oldagram** [Code](./09-oldagram) | [Demo](https://oldagram-neon.vercel.app/)
 
-#### 🛜 **URL Web App**
-[Code](./08-url-saver-web-app) | [Demo](https://bookmarker-tau-gilt.vercel.app/)
-
-#### 📷 **Oldagram**
-[Code](./09-oldagram) | [Demo](https://oldagram-neon.vercel.app/)
+ 🐱 **Meme Picker** [Code](./10-meme-picker) <!--| [Demo](https://oldagram-neon.vercel.app/) -->
