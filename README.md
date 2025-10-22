@@ -23,4 +23,4 @@ A collection of projects completed whilst working through the [Scrimba](https://
 
 📷 **Oldagram** [Code](./09-oldagram) | [Demo](https://oldagram-neon.vercel.app/)
 
- 🐱 **Meme Picker** [Code](./10-meme-picker) <!--| [Demo](https://oldagram-neon.vercel.app/) -->
+ 🐱 **Meme Picker** [Code](./10-meme-picker) | [Demo](https://meme-picker-ten.vercel.app/)
